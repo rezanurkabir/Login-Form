@@ -1,0 +1,48 @@
+body{
+	background:gray;
+}
+.box{
+	width:400px;
+	background:linear-gradient(red,orange);
+	height:300px;
+	margin:auto;
+	padding:50px;
+	outline:10px solid white;
+	
+}
+.box h3{
+	
+	color:#fff;
+	font-family:tahoma;
+	margin-left:28px;;
+}
+.box h3:hover{
+	transition: 1s;
+	font-size:20px;
+	color: black;
+
+	/* .box input[type="text"],.box input[type="password"] */
+}
+.box input[type="text"],.box input[type="password"]{
+	display: block;
+	width:80%;
+	padding: 5px 10px;
+	margin:auto;
+	margin-top:10px;
+	border:1px solid black;
+	border-radius: 15px;
+}
+.box input[type="submit"]{
+	background: linear-gradient(green,blue);
+	margin: 10px auto;
+	color:white;
+	width:85%;
+	display:block;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding:5px 10px;
+	margin-top:10px;
+}
+.box input[type="submit"]:hover{
+	background: linear-gradient(white,red);
+}
